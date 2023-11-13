@@ -96,12 +96,6 @@ namespace SampleChallengeSystem.PlayerTools
             return isMatched;
         }
 
-        // Get all of the states
-        public List<State> States ()
-        {
-            return _state;
-        }
-
         // Toggle the state that matches the name
         public void ToggleState(string name)
         {
@@ -122,14 +116,6 @@ namespace SampleChallengeSystem.PlayerTools
         public void AddState(State state)
         {
             _state.Add(state);
-        }
-        public void RemoveChallenge(Challenge challenge)
-        {
-            _playerChallenges.Remove(challenge);
-        }
-        public void RemoveState(State state)
-        {
-            _state.Remove(state);
         }
 
         // Displays allow a nice view of the current active states and challenges

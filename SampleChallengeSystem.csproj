@@ -73,7 +73,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Challenge.cs" />
-    <Compile Include="Classes\Command.cs" />
     <Compile Include="Classes\SingleActionState.cs" />
     <Compile Include="Classes\State.cs" />
     <Compile Include="PlayerTools\FPS_Sample.cs" />
